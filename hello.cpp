@@ -9,6 +9,8 @@ using std::cin;
 using std::endl;
 using std::string;
 
+void testFunc(void);
+
 int main()
 {
 	string Name;
