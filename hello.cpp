@@ -24,7 +24,7 @@ int main()
 	else if (age != MYAGE)
 		cout << "You're older than me!" << endl;
 	else 
-		cout <<"Oh! we have the same age!" endl;
+		cout <<"Oh! we have the same age!" << endl;
 	if (TEST)
 		testFunc();
 	return 0;
