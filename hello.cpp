@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#define MYAGE 19
+#define P_AGE 19
 #define TEST 0
 
 using std::cout;
@@ -19,9 +19,9 @@ int main()
 	getline(cin, Name);
 	cout << "Hi " << Name << "! What's your age?"<< endl;
 	cin >> age;
-	if (age < MYAGE)
+	if (age < P_AGE)
 		cout << "I'm older than you!" << endl;
-	else if (age != MYAGE)
+	else if (age != P_AGE)
 		cout << "You're older than me!" << endl;
 	else 
 		cout <<"Oh! we have the same age!" << endl;
